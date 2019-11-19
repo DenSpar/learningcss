@@ -13,6 +13,7 @@
 
 
   <body>
+	<!--шапка - начало-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">НЛК</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,23 +38,96 @@
     </form>
   </div>
 </nav>
+<!--шапка - конец-->
 
+		
+<div class="jumbotron jumbotron-fluid">
+  <!--JUMBOTRON-->
+  <div class="container">
+    <h1 class="display-4">Портфолио</h1>
+    <p class="lead">Это место, где собраны ваши научные публикации. Здесь вы можете добавлять свои научные работы, получать информацию об их уникальности и смотреть отзывы ваших научных руководителей.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Добавить работу</a>
+  </div>
+</div>
+<!--JUMBOTRON - конец-->
 
+<div class="row">
+	<!-- карточки - начало-->
+  <div class="col-lg-5">
+  	<div class="card">
+  	<!--карточка профиль-->
+  <div class="card-header">
+    Ваш профиль
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Сергей Павлович Фролов</h5>
+    <p class="card-text">Научная степень: Магистр. Специализация: Инвестиционные проблемы экономически развивающихся рынков.</p>
 
+    <!--сделать науч.степень и специализацию неизменяемыми-->
+    <!--убрать пробелы между р-->
 
-	
-  	<div class="jumbotron">
-		<button class="btn btn-primary">Я кнопка из Бутстрапа!</button>
+    <p class="card-text">Специализация: Инвестиционные проблемы экономически развивающихся рынков.</p>
+        <a href="#" class="btn btn-primary">Редактировать</a>
+  </div>
+	</div>
 	</div>
 
-	<div class="card" style="width: 18rem;">
-		<img class="card-img-top" src="https://yt3.ggpht.com/a/AGF-l7-gPEUX0irpn8Z7h8z9T_u7XsfHr8Lj-HiwNg=s900-c-k-c0xffffffff-no-rj-mo" alt="Card image cap">
-		<div class="card-body">
-			<h5 class="card-title">Card title</h5>
-			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			<a href="https://podtrade.ru/product/45756/?utm_source=market.yandex.ru&utm_term=45756&r1=yandext&r2=&_openstat=bWFya2V0LnlhbmRleC5ydTvQodGE0LXRgNC40YfQtdGB0LrQuNC5INGA0L7Qu9C40LrQvtCy0YvQuSDQv9C-0LTRiNC40L_QvdC40Log0YEg0LrQvtC90LjRh9C10YHQutC40Lwg0L7RgtCy0LXRgNGB0YLQuNC10Lwg0L_QvtC0INCy0YLRg9C70LrRgyAxMTM2MjQg0JDQnNCdICgyMjMyNCBBQ0tNQlczMykgTVBaOy1vWFItYUdwTmszNmFhcFhvU1Etb3c7&frommarket=&ymclid=15741668722149718265900003" class="btn btn-primary">Go somewhere</a>
-  		</div>
+	<div class="col-lg-4">
+		<div class="card">
+	<!--карточка статистика-->
+  <div class="card-header">
+    Статистика
+  </div>
+  <div class="card-body">
+
+  	<!--сделать платформ,добработ,уникальность,язык неизменяемыми-->
+
+    <p class="card-text">На платформе: 2 года.</p>
+    <p class="card-text">Добавлено работ: 10.</p>
+    <p class="card-text">Средняя уникальность: 75%.</p>
+    <p class="card-text">Языки работ: русский, английский.</p>
+  </div>
 	</div>
+	</div>
+</div>
+<!-- карточки - конец-->
+
+
+	<!-- таблица - начало-->
+	<table class="table table-bordered">
+
+		<!-- в таблце заменить шрифт содержимого-->
+
+  <thead>
+    <tr> <!-- строка шапка-->
+      <th scope="col">Название работы</th>
+      <th scope="col">Дата загрузки</th>
+      <th scope="col">Научный руководитель</th>
+      <th scope="col">Уникальность</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr> <!-- строка 1-->
+      <td>Mark</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr> <!-- строка 2-->
+      <td>Mark</td>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr> <!-- строка 3-->
+      <td>Mark</td>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+<!-- таблица - конец-->
 
   </body>
 
