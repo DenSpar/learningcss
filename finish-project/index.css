@@ -103,24 +103,50 @@ body {
 <!--карточки - конец-->
 
 <!--подвал - начало-->
-    .footer_container {    	
-    	background-color: #262626;
-    }
-    
-    .footer_logo {
-    	padding: 56px 80px 40px;
-    	height: 19px;
-    }
-    
-    .footer_row1 {
-    	padding: 19px 80px 46px; 
-    }
+.footer_container {    	
+ 	background-color: #262626;
+}
 
-    .footer_apps {
-    	padding: 40px 80px;
-    }
+.footer_logo {
+    padding: 56px 80px 40px;
+    height: 19px;
+}
+    
+.footer_row1 {
+    padding: 19px 80px 46px; 
+}
 
-    .footer_row4 {
-    	padding: 40px 80px;
-    }
+.footer_row1_social {}
+
+.footer_row1_social_text {
+    font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.footer_row1_text {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.footer_apps {
+    padding: 40px 80px;
+}
+
+.footer_row4 {
+    padding: 40px 80px;
+}
+
+.footer_row4_text {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+}
 <!--подвал - конец-->
