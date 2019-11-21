@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+<!--шапка - начало-->
+.navbar {
+	position: fixed;
+	top: 0;
+	height: 72px;
+	padding: 0 80px;
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16); 
+}
+
+.container_logo_navbar {
+	align-items: center;
+}
+
+.logo_navbar {
+	height: 12px;
+}
+
+.accaunt {
+	align-items: center;
+}
+
+.enter {
+	height: 40px;
+	width: 80px;
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+.basket {
+	height: 30px;
+}
+
+.basket_img {
+	height: 30px;
+}
+<!--шапка - конец-->
+
+<!--возврат в начало - начало-->
+.up {
+	position: fixed;
+	right: 16px;
+	bottom: 24px;
+	height: 80px;
+	width: 80px;
+	background-color: #59BD5A;
+}
+
+.up_img {
+	height: 24px;
+	width: 24px;
+	background-color: #59BD5A;
+}
+<!--возврат в начало - конец-->
+
+<!--карточки - начало-->
+.card {
+	height: 366px;
+	padding: 0 0 20px;
+	margin: 16px 0;
+	padding: 0 8px;
+}
+
+.rest_img {}
+
+.logo_rest_img {
+	height: 308px;
+}
+
+.rest_name {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: left;
+}
+
+.rest_type {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: left;
+}
+
+.rest_time {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: left;
+}
+<!--карточки - конец-->
+
+<!--подвал - начало-->
+    .footer_container {    	
+    	background-color: #262626;
+    }
+    
+    .footer_logo {
+    	padding: 56px 80px 40px;
+    	height: 19px;
+    }
+    
+    .footer_row1 {
+    	padding: 19px 80px 46px; 
+    }
+
+    .footer_apps {
+    	padding: 40px 80px;
+    }
+
+    .footer_row4 {
+    	padding: 40px 80px;
+    }
+<!--подвал - конец-->
